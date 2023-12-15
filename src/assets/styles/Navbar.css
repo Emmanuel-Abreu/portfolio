@@ -1,0 +1,13 @@
+/*Header should have position: fixed; instead of Navbar?*/
+
+.Navbar{
+  position: -webkit-sticky;
+  position: sticky;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 50px;
+  background-color: #e0e0e0;
+  border: 1px solid #000;
+}
