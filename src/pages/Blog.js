@@ -1,5 +1,5 @@
 import React from 'react';
-import Blog1 from './Blog1'
+import Blog1 from '../components/Blog1'
 
 export default function Blog(){
   return (

@@ -6,8 +6,11 @@ import '../assets/styles/HomeMessage.css';
 
 export default function HomeMessage(){
   return (
-    <div>
+    <div className='HomeMessage'>
       <h1>Emmanuel Abreu</h1>
+      <h3>Software Developer</h3>
+
+      <p>A developer that wants to enhance people&apos;s lives through building software.</p>
     </div>
   );
 }

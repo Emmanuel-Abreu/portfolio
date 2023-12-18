@@ -1,3 +1,10 @@
+# Emmanuel Abreu
+
+Hello, I'm Emmanuel, and i'm passionate about building practical software that helps enhances businesses and people's lives.
+Since graduating from Hudson Valley Community in 2020 with a degree in Computer Information Systems, I have been focusing on software
+development since then.
+
+## Next.js
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

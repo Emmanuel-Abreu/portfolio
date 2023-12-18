@@ -1,26 +1,16 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 import '../assets/styles/Navbar.css'
+import Link from 'next/link'
 
 export default function Navbar(){
   return (
     <header>
       <nav className="Navbar">
-        <NavLink to="/">
-          <p>Home</p>
-        </NavLink>
-        <NavLink to="/pages/projects">
-          <p>Projects</p>
-        </NavLink>
-        <NavLink to="/pages/blog">
-          <p>Blog</p>
-        </NavLink>
-        <NavLink to="/pages/about_me">
-          <p>About Me</p>
-        </NavLink>
-        <NavLink to="/pages/contact">
-          <p>Contact</p>
-        </NavLink>
+        <Link href="/">Home</Link>
+        <Link href="/Projects">Projects</Link>
+        <Link href="/Blog">Blog</Link>
+        <Link href="/AboutMe">About Me</Link>
+        <Link href="/Contact">Contact</Link>
       </nav>
     </header>
   );

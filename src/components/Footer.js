@@ -8,6 +8,7 @@ export default function Footer(){
     <footer className='Footer'>
       <Icons/>
       <Attribution/>
+      <p>Questions, comments, or feedback? Let me know! <a href='/Contact'>Send me an email</a></p>
     </footer>
   );
 }
