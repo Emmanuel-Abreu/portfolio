@@ -1,6 +1,7 @@
 .AboutPage{
   display: flex;
   flex-direction: column;
+  font-size: .9 rem;
 }
 
 body{
