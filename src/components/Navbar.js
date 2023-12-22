@@ -1,5 +1,5 @@
 import React from 'react';
-import '../assets/styles/Navbar.css'
+import '../../public/styles/Navbar.css'
 import Link from 'next/link'
 
 export default function Navbar(){
@@ -9,7 +9,7 @@ export default function Navbar(){
         <Link href="/">Home</Link>
         <Link href="/Projects">Projects</Link>
         <Link href="/Blog">Blog</Link>
-        <Link href="/AboutMe">About Me</Link>
+        <Link href="/About">About Me</Link>
         <Link href="/Contact">Contact</Link>
       </nav>
     </header>

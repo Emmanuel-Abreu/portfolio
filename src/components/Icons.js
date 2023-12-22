@@ -1,8 +1,8 @@
 import React from 'react';
 import Image from 'next/image'
-import GithubIcon from '../assets/images/icons8-github.svg'
-import InstagramIcon from '../assets/images/icons8-instagram.svg'
-import LinkedinIcon from '../assets/images/icons8-linkedin.svg'
+import GithubIcon from '../../public/images/icons8-github.svg'
+import InstagramIcon from '../../public/images/icons8-instagram.svg'
+import LinkedinIcon from '../../public/images/icons8-linkedin.svg'
 
 export default function Icons(){
   return (

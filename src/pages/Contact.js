@@ -1,5 +1,7 @@
-import React, { ReactElement } from "react";
-import '../assets/styles/ContactPage.css'
+import React from "react";
+import '../../public/styles/ContactPage.css'
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 export default function Contact(){
 
@@ -11,6 +13,7 @@ export default function Contact(){
 
   return(
     <div className="ContactPage">
+      <Navbar/>
       <h2>Contact Me</h2>
       <form action="">
         <label htmlFor="name">Name</label>
@@ -23,6 +26,7 @@ export default function Contact(){
         <textarea name="" id="message" cols={30} rows={10}/>
         <button id="submit-btn">Submit</button>
       </form>
+      <Footer/>
     </div>
   );
 }

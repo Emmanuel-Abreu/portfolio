@@ -1,6 +1,6 @@
 import React from 'react';
-import ProfileIMG from '../assets/images/profilePic.jpg'
-import '../assets/styles/HomeMessage.css';
+//import ProfileIMG from '../assets/images/profilePic.jpg'
+//import '../assets/styles/HomeMessage.css';
 
 //<img src={ProfileIMG} alt="Profile Image" className="ProfileIMG"/>
 
