@@ -1,0 +1,15 @@
+.Home{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e0e0e0;
+  border: 1px solid #000;
+  height: 80vh;
+}
+
+body{
+  padding: 0px 0px;
+  margin: 0px 0px;
+  border: 0px 0px;
+}
